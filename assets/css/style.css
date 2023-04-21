@@ -1,0 +1,40 @@
+body{
+    font-family: 'M PLUS 2';
+}
+
+#Imagen-Principal{
+    background-image: url(../imgs/bg-hero.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+section {
+  scroll-margin-top: 60px;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+footer .iconos-rrss a{
+  margin: 10px;
+  padding: 2px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+footer .iconos-rrss i{
+  color: white;
+  transition: all 0.2s ease-in;
+}
+footer .iconos-rrss a:hover{
+  background-color: solid rgb(108, 117, 125);
+  border: solid rgb(90, 90, 90);
+}
+
